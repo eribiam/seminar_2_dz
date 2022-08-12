@@ -24,6 +24,19 @@
 //     System.Console.WriteLine($"Третья цифра = {numberString[2]}");
 // }
 
+// Ввариант 2
+
+// System.Console.WriteLine("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if ((number / 10) < 10) System.Console.WriteLine("Третьей цифры нет");
+// else
+// {
+//     while (number > 999) number = number / 10;
+//     number = number % 10;
+//     System.Console.WriteLine($"Третья цифра = {number}");
+// }
+
+
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
 // System.Console.WriteLine("Введите цифру от 1 до 7: ");
